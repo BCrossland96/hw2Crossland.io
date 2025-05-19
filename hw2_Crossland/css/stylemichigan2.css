@@ -1,0 +1,129 @@
+head {
+background-color: rgb(253, 194, 255);
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: rgb(253, 194, 255);
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(253, 194, 255);
+}
+
+div {
+    display: grid; 
+    grid-template-columns: 40% 40% 40%;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+img {
+    border: #3f003c 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+background-color: rgb(251, 128, 255);    
+color: #41004e;
+text-align: center;
+display: grid; 
+text-decoration: dotted underline; margin: 5%;
+text-transform: uppercase;
+padding: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2.5em;
+}
+
+nav {
+font-size: 125%;
+color:#41004e;
+background-color: rgb(251, 128, 255);
+text-transform: capitalize;
+text-decoration: none;
+text-align: center;
+display: inline;
+padding: 10px;
+width: 80%;
+height: 80%;
+border: #3f003c 5px solid;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header img {
+width: 10%;
+height: auto;
+float: right;
+border: #3f003c 5px solid;
+margin: 10px;
+position:relative; top: 20px;
+}
+
+ol {
+background: rgb(251, 128, 255);
+color:#41004e;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+background: rgb(251, 128, 255);
+color:#41004e;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol,ul li {
+background: rgb(251, 128, 255);
+color:#41004e;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link {
+color: #41004e;
+text-decoration: underline;
+text-transform: capitalize;
+}
+
+a:visited {
+color: #c0117d;
+text-decoration: none;  
+}
+
+a:hover {
+color: #6a1fa7; 
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:active {
+color: #ff008c;
+}
+
+footer {
+background-color: rgb(251, 128, 255);
+color: #0b000e;
+text-align: center;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2em; 
+margin-top: 5px;
+}
